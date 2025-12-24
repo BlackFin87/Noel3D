@@ -1,0 +1,10 @@
+/* Nạp 3 thành phần cốt lõi của Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0; /* Xóa lề mặc định của trình duyệt */
+  background: black; /* Đặt nền đen tuyền cho vũ trụ */
+  overflow: hidden; /* Chặn thanh cuộn (scroll) để màn hình luôn đứng yên */
+}
