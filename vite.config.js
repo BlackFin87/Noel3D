@@ -10,6 +10,6 @@ export default defineConfig(({ command }) => {
     // LOGIC THÔNG MINH:
     // 1. Nếu đang chạy local (serve) -> Dùng đường dẫn gốc '/'
     // 2. Nếu đang đóng gói (build) -> Dùng đường dẫn GitHub '/noel-lop5a/'
-    base: isDev ? '/' : '/noel-lop5a/', 
+    base: isDev ? '/' : '/Noel3D/', 
   }
 })
